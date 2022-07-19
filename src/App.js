@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import BTGHRedux from './BaiTapGioHangRedux/BTGHRedux'
+import BTGameXucXac from './BaiTapGameXucXac/BTGameXucXac'
+// import BTGHRedux from './BaiTapGioHangRedux/BTGHRedux'
 // import BTGHRedux from './BaiTapGioHangRedux/BTGHRedux'
 // import BaiTapGioHang from './BaiTapGioHang/BaiTapGioHang'
 // import DanhSachCar from './Car/DanhSachCar'
@@ -17,7 +18,8 @@ export default class App extends Component {
       <DanhSachSanPham/> */}
       {/* <BaiTapGioHang/> */}
       {/* <BTGHRedux/> */}
-      <BTGHRedux/>
+      {/* <BTGHRedux/> */}
+      <BTGameXucXac/>
       </div>
     )
   }
