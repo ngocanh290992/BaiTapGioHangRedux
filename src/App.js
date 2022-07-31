@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import BTGOanTuXi from './BaiTapGameOanTuXi/BTGOanTuXi'
+import BaiTapBookingTicket from './BaiTapBookingTicket/BaiTapBookingTicket'
+// import BTGOanTuXi from './BaiTapGameOanTuXi/BTGOanTuXi'
 // import BTGameXucXac from './BaiTapGameXucXac/BTGameXucXac'
 // import BTGHRedux from './BaiTapGioHangRedux/BTGHRedux'
 // import BTGHRedux from './BaiTapGioHangRedux/BTGHRedux'
@@ -21,7 +22,8 @@ export default class App extends Component {
       {/* <BTGHRedux/> */}
       {/* <BTGHRedux/> */}
       {/* <BTGameXucXac/> */}
-      <BTGOanTuXi/>
+      {/* <BTGOanTuXi/> */}
+      <BaiTapBookingTicket/>
       </div>
     )
   }
